@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header,
+footer {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: 1;
+    align-items: center;
+    background-color: #0F2565;
+    opacity: 80%;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+nav {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 16px;
+    color: white;
+}
+
+a:hover {
+    border-radius: 15px;
+    border: .5pt solid #354e91;
+}
+
+body {
+    background-color: #0F2565;
+}
+
+.typeflow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    background-color: #013c42;
+    width: 33%;
+    height: 300px;
+    border-radius: 25px;
+    line-height: 1.5;
+    width: fit-content;
+
+}
+
+h3 {
+    /* align-items: center; */
+    align-self: center;
+    font-size: 36px;
+    position: relative;
+    margin: -1rem 0 .5rem 0;
+    background-color: #013c42;
+    /* border: .02pt dashed white; */
+    border-radius: 15px;
+    /* width: fit-content; */
+    padding: .2rem 6rem;
+    box-shadow: inset 0 0 8px #37d2e4;
+
+}
+
+h3:hover,
+.box:hover {
+    box-shadow: inset 0px 0px 8px whitesmoke;
+}
+
+section p {
+    margin: .2rem .2rem;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+
+.code-box {
+    background-color: #f2eed3;
+    color: #018695;
+    min-width: 33%;
+    width: 460px;
+    border-radius: 10px;
+    height: 150px;
+    font-size: 1.2rem;
+    align-self: center;
+
+
+}
+
+code {
+    color: #018695;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .typeflow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+div p{
+    color: aliceblue;
+    margin: 5%;
+    text-align: center;
+}
+.box{
+    background-color: darkblue;
+    opacity: 50%;
+    width: 50%;
+    height: fit-content;
+    border-radius: 20px;
+}
+.box1{
+    background-color: red;
+    width: 50%;
+    height: 100px;
+    border-radius: 20px; */
+}
